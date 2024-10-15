@@ -1,0 +1,49 @@
+@import "normalize";
+
+.form-field {
+  margin-bottom: .8rem;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-size: 1.05rem;
+}
+
+.form-control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: .775rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  //color: var(--bs-gray-700);
+  appearance: none;
+  //background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: 1px solid gainsboro;
+  border-radius: .475rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+.form-select {
+  display: block;
+  width: 100%;
+  padding: .375rem 2.25rem .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  //color: var(--bs-body-color);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  //background-color: var(--bs-body-bg);
+  background-repeat: no-repeat;
+  background-position: right .75rem center;
+  background-size: 16px 12px;
+  border: 1px solid gainsboro;
+  border-radius: .475rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
